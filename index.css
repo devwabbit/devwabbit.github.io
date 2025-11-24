@@ -1,6 +1,6 @@
 .poppins-bold {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -8,9 +8,19 @@
   background-color: #122536;
 }
 
+.header {
+  color: #ffffff
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
 .text {
   color: #acacac;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+#button {
+  draggable: true;
 }
