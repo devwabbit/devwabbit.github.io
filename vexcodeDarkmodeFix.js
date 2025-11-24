@@ -1,3 +1,8 @@
+if (window.location.origin !== "https://codev5.vex.com') {
+    alert("Wrong tab / Drag to Bar")
+    return
+}
+
 console.log("vexcideDarkModeFix Injected")
 function ccsImplant(css) {
     const style = document.createElement("style");
@@ -141,4 +146,5 @@ path[d^="M5.09"] {
     background-color: #000000;
 }
 `)
+
 
