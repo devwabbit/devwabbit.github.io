@@ -9,9 +9,9 @@
 }
 
 .header {
-  color: #ffffff
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .text {
@@ -22,5 +22,6 @@
 }
 
 #button {
-  draggable: true;
+  
+  cursor: grab;
 }
